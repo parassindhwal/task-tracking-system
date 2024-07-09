@@ -1,0 +1,24 @@
+{
+  "name": "airtribe-task-tracking-system",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Paras Sindhwal",
+  "license": "ISC",
+  "description": "Develop a backend system for a task tracking and management application that facilitates collaboration and organization within teams or projects. The application should allow users to create, assign, and track tasks, as well as collaborate with team members through comments and attachments.",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.4",
+    "redis": "^4.6.15",
+    "util": "^0.12.5"
+  }
+}
